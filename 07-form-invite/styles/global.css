@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-heading: #F9F9F9;
+  --text-body: #C8CDD0;
+  --input-base: #1C1D21;
+  --input-stroke: #363B40;
+  --input-placeholder: #869198;
+  --feedback-danger: #FF5959;
+}
