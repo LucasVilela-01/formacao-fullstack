@@ -1,0 +1,39 @@
+.aside-container {
+  & img {
+  margin-bottom: 1rem;
+  }
+
+  & h1 {
+    color: #FF598B;
+    font:  var(--text-logo);
+    margin-bottom: 0.25rem;
+  }
+
+  & p {
+    color: var(--color-heading);
+    font: var(--text-md);
+    font-weight: 300;
+  }
+}
+
+.main-container {
+  padding: 5rem 8.125rem;
+
+  & h1 {
+    font: var(--header-md);
+    color: var(--color-heading);
+  }
+
+  .event {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+
+    margin-top: 2.5rem;
+  }
+
+  & h2 {
+    font: var(--header-sm);
+    color: var(--color-heading);
+  }
+}

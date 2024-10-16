@@ -1,0 +1,26 @@
+#form-invite {
+  display: grid;
+  grid-template-columns: 31.25% 68.25%;
+
+  height: 100vh;
+  max-width: 80rem;
+
+  padding: 1.25rem;
+  gap: 1.25rem;
+
+  overflow: hidden;
+
+  margin-left: auto;
+}
+
+aside {
+  background-image: url(../assets/images/Background.png);
+  max-height: 45.5rem;
+  max-width: 25rem;
+
+  padding: 2rem;
+}
+
+main, aside {
+  border-radius: 0.75rem;
+}

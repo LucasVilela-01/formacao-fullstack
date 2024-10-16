@@ -5,10 +5,26 @@
 }
 
 :root {
-  --text-heading: #F9F9F9;
-  --text-body: #C8CDD0;
-  --input-base: #1C1D21;
-  --input-stroke: #363B40;
-  --input-placeholder: #869198;
-  --feedback-danger: #FF5959;
+  --color-heading: #F9F9F9;
+  --color-body: #C8CDD0;
+  --color-input-base: #1C1D21;
+  --color-input-stroke: #363B40;
+  --color-input-placeholder: #869198;
+  --color-feedback-danger: #FF5959;
+
+  --text-logo: 2.5rem 'Leckerli One', sans-serif;
+  --header-md: 1.75rem 'Baloo 2', sans-serif;
+  --header-sm: 1.125rem 'Baloo 2', sans-serif;
+
+  --text-md: 1rem 'Open Sans', sans-serif;
+  --text-sm: .875rem/1.25rem 'Open Sans', sans-serif;
+  --text-xs: .75rem 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #1E1E1E;
+  overflow: hidden;
+
+  font: var(--text-md);
+  color: var(--text-body);
 }
