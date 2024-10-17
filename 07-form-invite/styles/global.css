@@ -14,17 +14,29 @@
 
   --text-logo: 2.5rem 'Leckerli One', sans-serif;
   --header-md: 1.75rem 'Baloo 2', sans-serif;
-  --header-sm: 1.125rem 'Baloo 2', sans-serif;
+  --header-sm: 1.125rem/1.25rem 'Baloo 2', sans-serif;
 
   --text-md: 1rem 'Open Sans', sans-serif;
-  --text-sm: .875rem/1.25rem 'Open Sans', sans-serif;
+  --text-sm: .875rem 'Open Sans', sans-serif;
   --text-xs: .75rem 'Open Sans', sans-serif;
 }
 
 body {
-  background-color: #1E1E1E;
+  background-color: #131516;
   overflow: hidden;
 
   font: var(--text-md);
   color: var(--text-body);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
 }
