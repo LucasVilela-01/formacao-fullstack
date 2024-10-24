@@ -1,0 +1,44 @@
+.radio-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.select-colors {
+  border-radius: .5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  & input,
+  & input:focus,
+  & input:hover {
+    all: unset;
+    position: absolute;
+    inset: 0;
+  }
+  
+  & img {
+    z-index: 1;
+  }
+}
+
+.radio-image {
+  width: 2.5rem;
+  height: 2.5rem;  
+
+  position: absolute;
+
+  background-image: url(../assets/select-colors/default.svg);
+
+  &:hover, &:focus-within {
+    background-image: url(../assets/select-colors/hover.svg);
+  }
+
+  &:has(:checked) {
+    background-image: url(../assets/select-colors/selected.svg);
+  }
+}

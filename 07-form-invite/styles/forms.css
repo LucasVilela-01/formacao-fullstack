@@ -6,22 +6,6 @@ label {
   margin-bottom: .75rem;
 }
 
-input, textarea, select {
-  border: none;
-  width: 100%;
-  background-color: var(--color-input-base);
-  height: 3rem;
-  border-radius: .5rem;
-  outline: 1px solid var(--color-input-stroke);
-
-  padding-left: 1rem;
-
-  font: var(--text-md);
-  color: var(--color-input-placeholder);
-
-  margin-bottom: 1rem;
-}
-
 fieldset {
   border: none;
 }
