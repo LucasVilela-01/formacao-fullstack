@@ -72,12 +72,15 @@
               </div>
 
               <div class="flex">
-                <div class="input-wrapper" flex-2>
+                <div class="input-wrapper" flex-1>
                   <label for="event-type">Tipo</label>
-                  <input type="text" />
+                  <div class="local-option">
+                    <div class="radio-image"></div>
+                    <input type="radio">
+                  </div>
                 </div>
 
-                <div class="input-wrapper" flex-1>
+                <div class="input-wrapper" flex-2>
                   <label for="event-local">Local</label>
                   <input
                     type="text"
@@ -87,36 +90,6 @@
                   />
                 </div>
               </div>
-
-              <div class="textarea-wrapper">
-                <label for="description-event">Descrição</label>
-                <textarea
-                  name="description-event"
-                  id="description-event"
-                  cols="30"
-                  rows="20"
-                  placeholder="Escreva sobre os detalhes do evento"
-                ></textarea>
-              </div>
-            </fieldset>
-
-            <fieldset class="personalization">
-              <h2>Personalização</h2>
-              <label for="color-primary">Cor principal</label>
-              <div class="radio-wrapper">
-                <div class="select-colors">
-                  <div class="radio-image"></div>
-                  <input type="radio" name="color-blue" id="color-blue">
-                  <img src="assets/select-colors/blue.svg" alt="">
-                </div>
-
-                <div class="radio-wrapper">
-                  <div class="select-colors">
-                    <div class="radio-image"></div>
-                    <input type="radio" name="color-navy" id="color-navy">
-                    <img src="assets/select-colors/navy.svg" alt="">
-                  </div>
-                
               </div>
             </fieldset>
           </form>

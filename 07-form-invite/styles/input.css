@@ -14,3 +14,13 @@ input, textarea, select {
 
   margin-bottom: 1rem;
 }
+
+/* config event-type */
+.local-option {
+  display: grid;
+  grid-template-columns: repeat(8.125rem, 2fr);
+
+  & .radio-image {
+    background-image: url(../assets/icons/building-2.svg);
+  }
+}
