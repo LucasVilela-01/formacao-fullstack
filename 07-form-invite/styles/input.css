@@ -16,11 +16,12 @@ input, textarea, select {
 }
 
 /* config event-type */
-.local-option {
-  display: grid;
-  grid-template-columns: repeat(8.125rem, 2fr);
 
-  & .radio-image {
-    background-image: url(../assets/icons/building-2.svg);
-  }
+.option input {
+  margin: 0;
+}
+
+.options {
+  display: flex;
+  width: 100%;
 }

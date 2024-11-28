@@ -53,30 +53,37 @@
                 <div class="input-wrapper" flex-2>
                   <label for="event-start">Início</label>
                   <input
-                    type="text"
+                    type="datetime-local"
                     id="event-start"
                     name="event-start"
-                    placeholder="DD/MM/AAAA, --:--"
                   />
                 </div>
 
                 <div class="input-wrapper" flex-1>
                   <label for="event-end">Fim</label>
                   <input
-                    type="text"
+                    type="datetime-local"
                     id="event-end"
                     name="event-end"
-                    placeholder="DD/MM/AAAA, --:--"
                   />
                 </div>
               </div>
 
-              <div class="flex">
-                <div class="input-wrapper" flex-1>
+              <div class="event">
+                <div class="event-option" flex-1>
                   <label for="event-type">Tipo</label>
-                  <div class="local-option">
-                    <div class="radio-image"></div>
-                    <input type="radio">
+                  <div class="options">
+                    <div class="presencial">
+                      <input type="radio" checked>
+                      <img src="assets/icons/building-2.svg" alt="">
+                      <label for="presencial">Presencial</label>
+                    </div>
+
+                    <div class="online">
+                      <img src="assets/icons/video.svg" alt="">
+                      <input type="radio" checked>
+                      <label for="online">Online</label>
+                    </div>
                   </div>
                 </div>
 
